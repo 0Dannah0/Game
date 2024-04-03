@@ -38,6 +38,7 @@ dependencies:
   flame: ^1.7.3
   google_fonts: ^4.0.4
   flame_audio: ^2.0.3
+  change_app_package_name: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +71,8 @@ flutter:
     - assets/images/game/
     - assets/background/
     - assets/audio/audi_sound.mp3
+    - assets/audio/bg_music.mp3
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

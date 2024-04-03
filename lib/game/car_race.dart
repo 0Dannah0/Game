@@ -40,7 +40,7 @@ class CarRace extends FlameGame
     await add(gameManager);
     overlays.add('gameOverlay');
     pool = await FlameAudio.createPool(
-      'audi_sound.mp3',
+      'bg_music.mp3',
       minPlayers: 3,
       maxPlayers: 4,
     );
@@ -48,7 +48,7 @@ class CarRace extends FlameGame
 
   void startBgmMusic() {
     FlameAudio.bgm.initialize();
-    FlameAudio.bgm.play('audi_sound.mp3', volume: 1);
+    FlameAudio.bgm.play('bg_music.mp3', volume: 1);
   }
 
   @override
